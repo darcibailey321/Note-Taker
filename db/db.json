@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Test Title",
+        "text": "Test text"
+    },
+    {
+        "title": "Test Note 1",
+        "text": "This is a test of my first note",
+        "id": "ef5ac1ad-4494-43ba-9629-4ce6d22c6d59"
+    },
+    {
+        "title": "Here is another note",
+        "text": "Testing note 2",
+        "id": "ee286f5e-97b2-4611-863b-7fada9740323"
+    }
+]
