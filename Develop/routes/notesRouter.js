@@ -2,11 +2,13 @@ const router = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 const { readFile, writeFile } = require('../helpers/fsUtils');
-// const { title } = require('process');
-// const { text } = require('express');
+const { title } = require('process');
+const { text } = require('express');
+
 
 router.get('/', (req, res) => {
     readFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
+    
 });
 
 router.post('/', (req, res) => {
